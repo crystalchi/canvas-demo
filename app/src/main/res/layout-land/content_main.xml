@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<com.crystal.canvasdemo.CanvasSaveRestoreView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!" />-->
+
+    <com.crystal.canvasdemo.RectangleWaterWave
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="点我哦！"/>
+    </com.crystal.canvasdemo.RectangleWaterWave>
+</RelativeLayout>
