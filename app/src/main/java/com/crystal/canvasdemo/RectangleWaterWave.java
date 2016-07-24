@@ -17,6 +17,7 @@ import android.widget.LinearLayout;
 import java.util.ArrayList;
 
 /**
+ * http://blog.csdn.net/singwhatiwanna/article/details/42614953
  * Created by xpchi on 2016/7/23.
  */
 public class RectangleWaterWave extends LinearLayout implements Runnable {
