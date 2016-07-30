@@ -12,6 +12,9 @@ import java.util.ArrayList;
 
 /**
  * 水纹效果
+ * 总结思路：点击后产生水波纹效果（dispatchTouchEvent - ACTION.DOWN），然后水纹消失(ACTION.UP)。
+ * 不停的drawCicle,然后水纹只在点击的目标view上显示，目标view以外看不到，此时可以用clipRect(裁剪)目标view区域为
+ * 可视区域。
  * Created by xpchi on 2016/7/30.
  */
 public class RippleLayout extends LinearLayout {
