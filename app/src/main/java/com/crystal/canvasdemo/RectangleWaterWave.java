@@ -67,6 +67,11 @@ public class RectangleWaterWave extends LinearLayout implements Runnable {
     }
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
+
+    @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         super.onLayout(changed, l, t, r, b);
         this.getLocationOnScreen(mLocationInScreen);
